@@ -1,0 +1,217 @@
+.cofhead {
+  height: 60px;
+  width: 280px;
+  background-color: darkgray;
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  border-radius: 10px;
+}
+.cofmid {
+  height: 100px;
+  width: 230px;
+  background-color: grey;
+  position: absolute;
+  top: 130px;
+  left: 126px;
+}
+.bottom1 {
+  height: 15px;
+  width: 280px;
+  background-color: rgb(33, 134, 236);
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  border-radius: 10px;
+}
+.bottom2 {
+  height: 40px;
+  width: 280px;
+  background-color: black;
+  position: absolute;
+  top: 245px;
+  left: 100px;
+  border-radius: 0px;
+}
+.pour1 {
+  height: 15px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  top: 1px;
+  left: 90px;
+  border-radius: 0px;
+}
+.pour2 {
+  height: 17px;
+  width: 20px;
+  background-color: black;
+  position: absolute;
+  top: 10px;
+  left: 103px;
+  border-radius: 0px;
+}
+.side {
+  height: 10px;
+  width: 50px;
+  background-color: black;
+  position: absolute;
+  top: 4px;
+  left: 160px;
+  border-radius: 0px;
+}
+.side1 {
+  height: 5px;
+  width: 20px;
+  background-color: burlywood;
+  position: absolute;
+  top: 7px;
+  left: 140px;
+  border-radius: 0px;
+}
+.buttons-1 {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 10px;
+  top: 19px;
+}
+.buttons-2 {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 38px;
+  top: 19px;
+}
+.display {
+  height: 40px;
+  width: 40px;
+  background-color: lightblue;
+  border-radius: 50%;
+  position: absolute;
+  left: 120px;
+  top: 12px;
+  border: 2px solid blue;
+}
+.details1 {
+  height: 30px;
+  width: 10px;
+  background-color: darkslategray;
+  position: absolute;
+  left: 250px;
+}
+.details2 {
+  height: 28px;
+  width: 10px;
+  background-color: darkslategray;
+  position: absolute;
+  left: 230px;
+}
+.details3 {
+  height: 25px;
+  width: 10px;
+  background-color: darkslategray;
+  position: absolute;
+  left: 210px;
+}
+.cup {
+  height: 25px;
+  width: 50px;
+  background-color: white;
+  border-radius: 0px 0px 30px 30px;
+  position: absolute;
+  top: 67px;
+  left: -50px;
+}
+
+.box {
+  height: 10px;
+  width: 11px;
+  background-color: grey;
+  border: 2px solid white;
+  border-radius: 0px 4px 10px 3px;
+  position: absolute;
+  top: 69px;
+  left: -4px;
+}
+.pour3 {
+  height: 15px;
+  width: 8px;
+  background-color: chocolate;
+  position: absolute;
+  left: 110px;
+  top: 25px;
+  animation: flow 1s linear infinite;
+  border-radius: 0px 0px 5px 5px;
+  visibility: hidden;
+  gap: 30px;
+}
+.pour4 {
+  height: 15px;
+  width: 8px;
+  background-color: chocolate;
+  position: absolute;
+  left: 110px;
+  top: 25px;
+  animation: flow 3s linear infinite;
+  border-radius: 0px 0px 5px 5px;
+  visibility: hidden;
+  gap: 30px;
+}
+@keyframes flow {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(25px);
+  }
+}
+.fume1 {
+  height: 20px;
+  width: 3px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 60px;
+  animation: fume 1.5s linear infinite;
+  border-radius: 90%;
+
+  gap: 30px;
+}
+.fume2 {
+  height: 20px;
+  width: 5px;
+  background-color: white;
+  position: absolute;
+  left: 130px;
+  top: 60px;
+  animation: fume 2s linear infinite;
+  border-radius: 90%;
+  visibility: ;
+  gap: 30px;
+}
+.fume3 {
+  height: 20px;
+  width: 5px;
+  background-color: white;
+  position: absolute;
+  left: 90px;
+  top: 60px;
+  animation: fume 1s linear infinite;
+  border-radius: 90%;
+  visibility: hidden;
+  gap: 30px;
+}
+
+@keyframes fume {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
